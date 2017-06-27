@@ -6,8 +6,8 @@
   "scripts": {
     "test": "npm test",
     "db:create": "CREATEDB todo",
-    "db:schema": "psql to_do < database/schema.sql",
-    "db:seed": "npm run db:schema && psql to_do < database/seed.sql",
+    "db:schema": "psql todo < models/schema.sql",
+    "db:seed": "npm run db:schema && psql todo < models/seed.sql",
     "db:drop": "DROPDB todo"
   },
   "repository": {
