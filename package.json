@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/aaronev/app-to-do-lists/issues"
   },
-  "homepage": "https://github.com/aaronev/app-to-do-lists#readme"
+  "homepage": "https://github.com/aaronev/app-to-do-lists#readme",
+  "dependencies": {
+    "pg-promise": "^6.1.2"
+  }
 }
